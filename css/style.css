@@ -1,0 +1,12 @@
+/* Eigene Ergänzungen zu Bootstrap – alles andere wird mit Bootstrap-Klassen gestylt */
+
+/* Bereich hinter dem Gemälde: Mindesthöhe, damit das Layout beim Laden nicht springt */
+.artwork-frame {
+    min-height: 16rem;
+}
+
+/* Gemälde: nie höher als 70% des Fensters, Seitenverhältnis bleibt erhalten */
+.artwork-image {
+    max-height: 70vh;
+    object-fit: contain;
+}
